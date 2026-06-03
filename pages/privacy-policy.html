@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy – Drift Minds | Clothing Manufacturer India</title>
+    <meta name="description" content="Privacy Policy of Drift Minds – Learn how we collect, use, and protect your personal information. Clothing manufacturer based in YOUR_CITY_1 & YOUR_CITY_2, India.">
+    <meta name="keywords" content="Drift Minds privacy policy, data protection, clothing manufacturer India, apparel manufacturer privacy">
+    <meta name="author" content="Drift Minds">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Privacy Policy – Drift Minds">
+    <meta property="og:description" content="Learn how Drift Minds collects, uses, and protects your personal data.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://driftminds.com/pages/privacy-policy.html">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧵</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A7E8C',
+                        'primary-dark': '#065A64',
+                        'primary-deeper': '#1A3A3A',
+                        gold: '#D4A017',
+                        'gold-light': '#E8BC3F',
+                        accent: '#E06C2E',
+                        'accent-hover': '#C85A1F',
+                        neutral: '#F7F7F7',
+                        dark: '#2E2E2E',
+                        'dark-light': '#4A4A4A',
+                    },
+                    fontFamily: {
+                        heading: ['Inter', 'sans-serif'],
+                        body: ['Open Sans', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+
+    <!-- FontAwesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #0A7E8C; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #065A64; }
+        html { scroll-behavior: smooth; }
+        .text-gradient-teal {
+            background: linear-gradient(135deg, #0A7E8C 0%, #065A64 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .mobile-menu {
+            transform: translateX(100%);
+            transition: transform 0.3s ease-in-out;
+        }
+        .mobile-menu.open {
+            transform: translateX(0);
+        }
+    </style>
+</head>
+
+<body class="font-body text-dark bg-neutral antialiased">
+
+    <!-- ===== NAVBAR ===== -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-white shadow-lg shadow-black/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <a href="../index.html" class="flex items-center gap-3 group">
+                    <img src="../logo.png" alt="Drift Minds Logo" class="h-12 w-12 object-contain transition-transform duration-300 group-hover:scale-110">
+                    <div class="flex flex-col">
+                        <span class="font-heading font-black text-xl tracking-tight text-primary-deeper transition-colors duration-300">DRIFT MINDS</span>
+                        <span class="text-[10px] tracking-[0.3em] text-gold font-semibold uppercase">Apparel Manufacturing</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav -->
+                <div class="hidden lg:flex items-center gap-8">
+                    <a href="../index.html" class="text-dark-light hover:text-gold font-medium text-sm tracking-wide transition-colors duration-300">Home</a>
+                    <a href="../index.html#products" class="text-dark-light hover:text-gold font-medium text-sm tracking-wide transition-colors duration-300">Products</a>
+                    <a href="../index.html#process" class="text-dark-light hover:text-gold font-medium text-sm tracking-wide transition-colors duration-300">Process</a>
+                    <a href="../index.html#clients" class="text-dark-light hover:text-gold font-medium text-sm tracking-wide transition-colors duration-300">Clients</a>
+                    <a href="../index.html#contact" class="bg-accent hover:bg-accent-hover text-white px-6 py-2.5 rounded-full font-semibold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-accent/30 hover:-translate-y-0.5">
+                        Get Quote <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobileMenuBtn" class="lg:hidden text-primary-deeper text-2xl p-2 hover:text-gold transition-colors" aria-label="Open menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Overlay -->
+        <div id="mobileMenu" class="mobile-menu fixed inset-0 bg-primary-deeper/98 backdrop-blur-xl z-50 flex flex-col justify-center items-center gap-6 lg:hidden">
+            <button id="mobileMenuClose" class="absolute top-6 right-6 text-white text-3xl hover:text-gold transition-colors" aria-label="Close menu">
+                <i class="fas fa-times"></i>
+            </button>
+            <a href="../index.html" class="mobile-nav-link text-white text-2xl font-heading font-bold hover:text-gold transition-colors">Home</a>
+            <a href="../index.html#products" class="mobile-nav-link text-white text-2xl font-heading font-bold hover:text-gold transition-colors">Products</a>
+            <a href="../index.html#process" class="mobile-nav-link text-white text-2xl font-heading font-bold hover:text-gold transition-colors">Process</a>
+            <a href="../index.html#clients" class="mobile-nav-link text-white text-2xl font-heading font-bold hover:text-gold transition-colors">Clients</a>
+            <a href="../index.html#contact" class="mobile-nav-link bg-accent hover:bg-accent-hover text-white px-8 py-3 rounded-full font-bold text-lg transition-all duration-300 mt-4">
+                Get Quote <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+        </div>
+    </nav>
+
+
+    <!-- ===== PAGE HEADER ===== -->
+    <section class="pt-32 pb-16 bg-gradient-to-br from-primary-deeper via-primary-dark to-primary-deeper relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-gold/5 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl"></div>
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <span class="inline-block bg-gold/20 text-gold font-semibold text-sm px-4 py-1.5 rounded-full mb-4">
+                <i class="fas fa-shield-alt mr-2"></i>LEGAL
+            </span>
+            <h1 class="font-heading font-black text-4xl sm:text-5xl lg:text-6xl text-white mb-4">Privacy Policy</h1>
+            <p class="text-white/70 text-lg max-w-2xl mx-auto">How Drift Minds collects, uses, stores, and protects your personal information.</p>
+            <div class="mt-6 inline-flex items-center gap-2 text-white/50 text-sm">
+                <i class="fas fa-calendar-alt"></i>
+                <span>Last Updated: June 2, 2026</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== POLICY CONTENT ===== -->
+    <section class="py-16 lg:py-24">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Table of Contents -->
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-12">
+                <h2 class="font-heading font-bold text-xl text-primary-deeper mb-4 flex items-center gap-2">
+                    <i class="fas fa-list-ul text-primary"></i> Table of Contents
+                </h2>
+                <nav class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    <a href="#introduction" class="text-primary hover:text-accent text-sm transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold"></i> 1. Introduction</a>
+                    <a href="#information-we-collect" class="text-primary hover:text-accent text-sm transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold"></i> 2. Information We Collect</a>
+                    <a href="#how-we-use" class="text-primary hover:text-accent text-sm transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold"></i> 3. How We Use Your Information</a>
+                    <a href="#data-sharing" class="text-primary hover:text-accent text-sm transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold"></i> 4. Data Sharing & Disclosure</a>
+                    <a href="#cookies" class="text-primary hover:text-accent text-sm transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold"></i> 5. Cookies & Tracking Technologies</a>
+                    <a href="#data-security" class="text-primary hover:text-accent text-sm transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold"></i> 6. Data Security</a>
+                    <a href="#data-retention" class="text-primary hover:text-accent text-sm transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold"></i> 7. Data Retention</a>
+                    <a href="#your-rights" class="text-primary hover:text-accent text-sm transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold"></i> 8. Your Rights</a>
+                    <a href="#third-party" class="text-primary hover:text-accent text-sm transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold"></i> 9. Third-Party Services</a>
+                    <a href="#children" class="text-primary hover:text-accent text-sm transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold"></i> 10. Children's Privacy</a>
+                    <a href="#international" class="text-primary hover:text-accent text-sm transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold"></i> 11. International Users</a>
+                    <a href="#changes" class="text-primary hover:text-accent text-sm transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold"></i> 12. Changes to This Policy</a>
+                    <a href="#grievance" class="text-primary hover:text-accent text-sm transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold"></i> 13. Grievance Officer</a>
+                    <a href="#contact-us" class="text-primary hover:text-accent text-sm transition-colors flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold"></i> 14. Contact Us</a>
+                </nav>
+            </div>
+
+
+            <!-- Section 1 -->
+            <div id="introduction" class="mb-12 scroll-mt-28">
+                <h2 class="font-heading font-bold text-2xl text-primary-deeper mb-4 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center text-primary font-bold text-sm">1</span>
+                    Introduction
+                </h2>
+                <div class="prose prose-lg max-w-none text-dark-light leading-relaxed space-y-4">
+                    <p>Welcome to Drift Minds ("we," "our," or "us"). We are a custom apparel manufacturing company registered in India, with operational offices in <strong>YOUR_CITY_1, STATE_1</strong> and <strong>YOUR_CITY_2, STATE_2</strong>. We specialize in the bulk manufacture and supply of T-shirts, Polo T-shirts, Hoodies, Sweatshirts, and Caps for institutions, brands, startups, and organizations across India.</p>
+                    <p>This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <strong>driftminds.com</strong> (the "Website"), communicate with us via email, phone, WhatsApp, or any other channel, or engage with us for manufacturing services. By accessing our Website or using our services, you agree to the terms outlined in this policy.</p>
+                    <p>This Privacy Policy is published in compliance with the <strong>Information Technology Act, 2000</strong>, the <strong>Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011</strong>, and the <strong>Digital Personal Data Protection Act, 2023</strong> of India.</p>
+                </div>
+            </div>
+
+
+            <!-- Section 2 -->
+            <div id="information-we-collect" class="mb-12 scroll-mt-28">
+                <h2 class="font-heading font-bold text-2xl text-primary-deeper mb-4 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center text-primary font-bold text-sm">2</span>
+                    Information We Collect
+                </h2>
+                <div class="prose prose-lg max-w-none text-dark-light leading-relaxed space-y-6">
+                    <div class="bg-white rounded-2xl border border-gray-100 p-6">
+                        <h3 class="font-heading font-semibold text-lg text-primary-deeper mb-3"><i class="fas fa-user text-primary mr-2"></i> 2.1 Personal Information You Provide</h3>
+                        <p>When you submit a quote request, enquiry form, or communicate with us, we may collect:</p>
+                        <ul class="list-disc pl-6 space-y-1 mt-2">
+                            <li><strong>Identity Information:</strong> Full name, designation, company/organization name</li>
+                            <li><strong>Contact Information:</strong> Email address, phone number, WhatsApp number, mailing/shipping address</li>
+                            <li><strong>Business Information:</strong> Company name, GST number, nature of business, order history</li>
+                            <li><strong>Order Information:</strong> Product type, quantity, design files, fabric preferences, size breakdowns, customization details</li>
+                            <li><strong>Financial Information:</strong> Bank account details, payment transaction IDs (collected for processing payments only; we do not store full credit/debit card numbers)</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white rounded-2xl border border-gray-100 p-6">
+                        <h3 class="font-heading font-semibold text-lg text-primary-deeper mb-3"><i class="fas fa-globe text-primary mr-2"></i> 2.2 Information Collected Automatically</h3>
+                        <p>When you visit our Website, we may automatically collect:</p>
+                        <ul class="list-disc pl-6 space-y-1 mt-2">
+                            <li><strong>Device Information:</strong> IP address, browser type and version, operating system, device type</li>
+                            <li><strong>Usage Data:</strong> Pages visited, time spent on pages, referring URLs, click patterns</li>
+                            <li><strong>Location Data:</strong> Approximate geographic location derived from your IP address</li>
+                            <li><strong>Log Data:</strong> Access times, server logs, error reports</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white rounded-2xl border border-gray-100 p-6">
+                        <h3 class="font-heading font-semibold text-lg text-primary-deeper mb-3"><i class="fas fa-comments text-primary mr-2"></i> 2.3 Information from Third-Party Sources</h3>
+                        <p>We may receive information about you from:</p>
+                        <ul class="list-disc pl-6 space-y-1 mt-2">
+                            <li>Social media platforms (Instagram, LinkedIn) when you interact with our profiles</li>
+                            <li>Business referrals from existing clients or partners</li>
+                            <li>Logistics and courier partners regarding delivery status</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Section 3 -->
+            <div id="how-we-use" class="mb-12 scroll-mt-28">
+                <h2 class="font-heading font-bold text-2xl text-primary-deeper mb-4 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center text-primary font-bold text-sm">3</span>
+                    How We Use Your Information
+                </h2>
+                <div class="prose prose-lg max-w-none text-dark-light leading-relaxed space-y-4">
+                    <p>We use the information we collect for the following purposes:</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="bg-white rounded-xl border border-gray-100 p-5">
+                            <h4 class="font-semibold text-primary-deeper mb-2"><i class="fas fa-cogs text-gold mr-2"></i>Service Delivery</h4>
+                            <p class="text-sm">Processing and fulfilling manufacturing orders, providing quotes, managing production schedules, and coordinating sample deliveries.</p>
+                        </div>
+                        <div class="bg-white rounded-xl border border-gray-100 p-5">
+                            <h4 class="font-semibold text-primary-deeper mb-2"><i class="fas fa-comments text-gold mr-2"></i>Communication</h4>
+                            <p class="text-sm">Responding to enquiries, sending order updates, delivery notifications, and providing customer support via email, phone, or WhatsApp.</p>
+                        </div>
+                        <div class="bg-white rounded-xl border border-gray-100 p-5">
+                            <h4 class="font-semibold text-primary-deeper mb-2"><i class="fas fa-credit-card text-gold mr-2"></i>Payment Processing</h4>
+                            <p class="text-sm">Processing advance payments (50% upfront), balance payments, generating invoices, and maintaining financial records as required by Indian tax law.</p>
+                        </div>
+                        <div class="bg-white rounded-xl border border-gray-100 p-5">
+                            <h4 class="font-semibold text-primary-deeper mb-2"><i class="fas fa-chart-line text-gold mr-2"></i>Analytics & Improvement</h4>
+                            <p class="text-sm">Understanding Website usage patterns, improving user experience, optimizing our manufacturing processes, and enhancing our service offerings.</p>
+                        </div>
+                        <div class="bg-white rounded-xl border border-gray-100 p-5">
+                            <h4 class="font-semibold text-primary-deeper mb-2"><i class="fas fa-bullhorn text-gold mr-2"></i>Marketing</h4>
+                            <p class="text-sm">Sending newsletters, promotional offers, new product announcements, and industry updates (with your consent; you may opt out at any time).</p>
+                        </div>
+                        <div class="bg-white rounded-xl border border-gray-100 p-5">
+                            <h4 class="font-semibold text-primary-deeper mb-2"><i class="fas fa-balance-scale text-gold mr-2"></i>Legal Compliance</h4>
+                            <p class="text-sm">Complying with applicable Indian laws, regulations, legal processes, and government requests, including GST filing and financial audit requirements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Section 4 -->
+            <div id="data-sharing" class="mb-12 scroll-mt-28">
+                <h2 class="font-heading font-bold text-2xl text-primary-deeper mb-4 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center text-primary font-bold text-sm">4</span>
+                    Data Sharing & Disclosure
+                </h2>
+                <div class="prose prose-lg max-w-none text-dark-light leading-relaxed space-y-4">
+                    <p>We do <strong>not sell, rent, or trade</strong> your personal information to third parties. We may share your data only in the following circumstances:</p>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li><strong>Service Providers:</strong> We share necessary information with logistics partners (e.g., courier companies for delivery), payment processors, and email service providers (such as EmailJS) who assist in our operations. These providers are contractually obligated to protect your data.</li>
+                        <li><strong>Manufacturing Partners:</strong> In cases where production is sub-contracted to our partner facilities in Kolkata or other locations, relevant order details may be shared to facilitate manufacturing.</li>
+                        <li><strong>Legal Requirements:</strong> We may disclose your information if required by law, regulation, court order, or governmental authority, including compliance with the IT Act, 2000 and GST regulations.</li>
+                        <li><strong>Business Transfers:</strong> In the event of a merger, acquisition, or sale of assets, your data may be transferred to the succeeding entity.</li>
+                        <li><strong>With Your Consent:</strong> We may share information for any other purpose with your explicit consent.</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- Section 5 -->
+            <div id="cookies" class="mb-12 scroll-mt-28">
+                <h2 class="font-heading font-bold text-2xl text-primary-deeper mb-4 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center text-primary font-bold text-sm">5</span>
+                    Cookies & Tracking Technologies
+                </h2>
+                <div class="prose prose-lg max-w-none text-dark-light leading-relaxed space-y-4">
+                    <p>Our Website may use cookies and similar tracking technologies to enhance your browsing experience. These include:</p>
+
+                    <div class="overflow-x-auto">
+                        <table class="w-full border-collapse bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100">
+                            <thead>
+                                <tr class="bg-primary text-white">
+                                    <th class="px-4 py-3 text-left text-sm font-semibold">Cookie Type</th>
+                                    <th class="px-4 py-3 text-left text-sm font-semibold">Purpose</th>
+                                    <th class="px-4 py-3 text-left text-sm font-semibold">Duration</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-100">
+                                <tr>
+                                    <td class="px-4 py-3 text-sm font-medium">Essential Cookies</td>
+                                    <td class="px-4 py-3 text-sm">Required for basic Website functionality (e.g., session management)</td>
+                                    <td class="px-4 py-3 text-sm">Session</td>
+                                </tr>
+                                <tr class="bg-neutral/50">
+                                    <td class="px-4 py-3 text-sm font-medium">Analytics Cookies</td>
+                                    <td class="px-4 py-3 text-sm">Help us understand how visitors interact with our Website (e.g., Google Analytics)</td>
+                                    <td class="px-4 py-3 text-sm">Up to 2 years</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-3 text-sm font-medium">Functional Cookies</td>
+                                    <td class="px-4 py-3 text-sm">Remember your preferences such as language or region</td>
+                                    <td class="px-4 py-3 text-sm">Up to 1 year</td>
+                                </tr>
+                                <tr class="bg-neutral/50">
+                                    <td class="px-4 py-3 text-sm font-medium">Marketing Cookies</td>
+                                    <td class="px-4 py-3 text-sm">Track your activity across sites to deliver relevant advertisements</td>
+                                    <td class="px-4 py-3 text-sm">Up to 1 year</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <p><strong>Managing Cookies:</strong> You can control or disable cookies through your browser settings. Please note that disabling essential cookies may affect Website functionality. Most browsers allow you to refuse cookies, delete existing cookies, or alert you before cookies are placed.</p>
+                </div>
+            </div>
+
+
+            <!-- Section 6 -->
+            <div id="data-security" class="mb-12 scroll-mt-28">
+                <h2 class="font-heading font-bold text-2xl text-primary-deeper mb-4 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center text-primary font-bold text-sm">6</span>
+                    Data Security
+                </h2>
+                <div class="prose prose-lg max-w-none text-dark-light leading-relaxed space-y-4">
+                    <p>We implement commercially reasonable security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. These measures include:</p>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li><strong>Encryption:</strong> All data transmitted through our Website is protected using SSL/TLS encryption</li>
+                        <li><strong>Access Controls:</strong> Personal data is accessible only to authorized personnel who require it for legitimate business purposes</li>
+                        <li><strong>Secure Storage:</strong> Client design files, order details, and financial records are stored in password-protected systems with regular backups</li>
+                        <li><strong>Staff Training:</strong> Our team is trained on data privacy best practices and confidentiality requirements</li>
+                        <li><strong>Regular Audits:</strong> We conduct periodic reviews of our data handling practices and security measures</li>
+                    </ul>
+                    <div class="bg-amber-50 border-l-4 border-gold p-4 rounded-r-xl">
+                        <p class="text-sm"><strong>Important:</strong> While we strive to protect your data, no method of transmission over the Internet or electronic storage is 100% secure. We cannot guarantee absolute security but are committed to maintaining the highest standards of protection achievable.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Section 7 -->
+            <div id="data-retention" class="mb-12 scroll-mt-28">
+                <h2 class="font-heading font-bold text-2xl text-primary-deeper mb-4 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center text-primary font-bold text-sm">7</span>
+                    Data Retention
+                </h2>
+                <div class="prose prose-lg max-w-none text-dark-light leading-relaxed space-y-4">
+                    <p>We retain your personal information for as long as necessary to fulfill the purposes for which it was collected, including:</p>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li><strong>Order Records:</strong> Retained for a minimum of 8 years in compliance with Indian GST and Income Tax Act record-keeping requirements</li>
+                        <li><strong>Client Communication:</strong> Retained for the duration of the business relationship plus 3 years for follow-up and quality assurance purposes</li>
+                        <li><strong>Design Files:</strong> Client-submitted designs are retained for the duration of the order plus 6 months (unless the client requests earlier deletion)</li>
+                        <li><strong>Website Analytics:</strong> Aggregated analytics data is retained for up to 26 months</li>
+                        <li><strong>Newsletter Subscriptions:</strong> Until you unsubscribe or request removal</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- Section 8 -->
+            <div id="your-rights" class="mb-12 scroll-mt-28">
+                <h2 class="font-heading font-bold text-2xl text-primary-deeper mb-4 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center text-primary font-bold text-sm">8</span>
+                    Your Rights
+                </h2>
+                <div class="prose prose-lg max-w-none text-dark-light leading-relaxed space-y-4">
+                    <p>Under the Digital Personal Data Protection Act, 2023 and applicable Indian law, you have the following rights regarding your personal data:</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="bg-white rounded-xl border border-gray-100 p-5 flex gap-3">
+                            <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-eye text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-primary-deeper text-sm mb-1">Right to Access</h4>
+                                <p class="text-sm">Request a summary of personal data we hold about you.</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-xl border border-gray-100 p-5 flex gap-3">
+                            <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-edit text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-primary-deeper text-sm mb-1">Right to Correction</h4>
+                                <p class="text-sm">Request correction or updating of inaccurate personal data.</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-xl border border-gray-100 p-5 flex gap-3">
+                            <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-trash-alt text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-primary-deeper text-sm mb-1">Right to Erasure</h4>
+                                <p class="text-sm">Request deletion of your personal data, subject to legal retention requirements.</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-xl border border-gray-100 p-5 flex gap-3">
+                            <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-user-slash text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-primary-deeper text-sm mb-1">Right to Withdraw Consent</h4>
+                                <p class="text-sm">Withdraw your consent for data processing at any time.</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-xl border border-gray-100 p-5 flex gap-3">
+                            <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-gavel text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-primary-deeper text-sm mb-1">Right to Grievance Redressal</h4>
+                                <p class="text-sm">Lodge a complaint with our Grievance Officer or regulatory authority.</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-xl border border-gray-100 p-5 flex gap-3">
+                            <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-hand-paper text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-primary-deeper text-sm mb-1">Right to Nominate</h4>
+                                <p class="text-sm">Nominate another individual to exercise your rights in case of death or incapacity.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p>To exercise any of these rights, please contact us at <a href="mailto:contact@yourdomain.com" class="text-primary hover:text-accent underline">contact@yourdomain.com</a>. We will respond to your request within <strong>30 business days</strong>.</p>
+                </div>
+            </div>
+
+
+            <!-- Section 9 -->
+            <div id="third-party" class="mb-12 scroll-mt-28">
+                <h2 class="font-heading font-bold text-2xl text-primary-deeper mb-4 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center text-primary font-bold text-sm">9</span>
+                    Third-Party Services
+                </h2>
+                <div class="prose prose-lg max-w-none text-dark-light leading-relaxed space-y-4">
+                    <p>Our Website and operations may utilize the following third-party services:</p>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li><strong>Google Analytics:</strong> For website traffic analysis and visitor insights (<a href="https://policies.google.com/privacy" class="text-primary hover:text-accent underline" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>)</li>
+                        <li><strong>Google Fonts:</strong> For loading web fonts (Inter, Open Sans)</li>
+                        <li><strong>EmailJS:</strong> For processing contact form submissions on the client side</li>
+                        <li><strong>WhatsApp Business:</strong> For customer communication (governed by <a href="https://www.whatsapp.com/legal/privacy-policy" class="text-primary hover:text-accent underline" target="_blank" rel="noopener noreferrer">WhatsApp's Privacy Policy</a>)</li>
+                        <li><strong>Logistics Partners:</strong> Courier and shipping services for order delivery</li>
+                        <li><strong>Tailwind CSS CDN & FontAwesome CDN:</strong> For frontend styling and icon rendering</li>
+                    </ul>
+                    <p>Each third-party service has its own privacy policy, and we encourage you to review them. We are not responsible for the privacy practices of these third-party services.</p>
+                </div>
+            </div>
+
+
+            <!-- Section 10 -->
+            <div id="children" class="mb-12 scroll-mt-28">
+                <h2 class="font-heading font-bold text-2xl text-primary-deeper mb-4 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center text-primary font-bold text-sm">10</span>
+                    Children's Privacy
+                </h2>
+                <div class="prose prose-lg max-w-none text-dark-light leading-relaxed space-y-4">
+                    <p>Our Website and services are intended for businesses, institutions, and individuals aged 18 and above. We do not knowingly collect personal information from children under the age of 18. If you are a parent or guardian and believe your child has provided us with personal data, please contact us immediately, and we will take steps to delete such information.</p>
+                </div>
+            </div>
+
+
+            <!-- Section 11 -->
+            <div id="international" class="mb-12 scroll-mt-28">
+                <h2 class="font-heading font-bold text-2xl text-primary-deeper mb-4 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center text-primary font-bold text-sm">11</span>
+                    International Users
+                </h2>
+                <div class="prose prose-lg max-w-none text-dark-light leading-relaxed space-y-4">
+                    <p>Drift Minds operates primarily within India. If you are accessing our Website from outside India, please be aware that your information may be transferred to, stored, and processed in India. By using our Website or services, you consent to the transfer of your information to India and acknowledge that Indian data protection laws may differ from those in your jurisdiction.</p>
+                    <p>For clients within the European Economic Area (EEA), we will make reasonable efforts to comply with the General Data Protection Regulation (GDPR) requirements where applicable, including obtaining explicit consent for data processing and providing data subject rights.</p>
+                </div>
+            </div>
+
+
+            <!-- Section 12 -->
+            <div id="changes" class="mb-12 scroll-mt-28">
+                <h2 class="font-heading font-bold text-2xl text-primary-deeper mb-4 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center text-primary font-bold text-sm">12</span>
+                    Changes to This Policy
+                </h2>
+                <div class="prose prose-lg max-w-none text-dark-light leading-relaxed space-y-4">
+                    <p>We reserve the right to update or modify this Privacy Policy at any time. When we make changes:</p>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li>The "Last Updated" date at the top of this page will be revised</li>
+                        <li>Material changes will be communicated via email to existing clients or prominently posted on our Website</li>
+                        <li>Continued use of our Website or services after the changes constitutes your acceptance of the revised policy</li>
+                    </ul>
+                    <p>We encourage you to periodically review this page for the latest information on our privacy practices.</p>
+                </div>
+            </div>
+
+
+            <!-- Section 13 -->
+            <div id="grievance" class="mb-12 scroll-mt-28">
+                <h2 class="font-heading font-bold text-2xl text-primary-deeper mb-4 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center text-primary font-bold text-sm">13</span>
+                    Grievance Officer
+                </h2>
+                <div class="prose prose-lg max-w-none text-dark-light leading-relaxed space-y-4">
+                    <p>In accordance with the Information Technology Act, 2000 and the rules made thereunder, we have appointed a Grievance Officer to address any concerns or grievances regarding data privacy:</p>
+                    <div class="bg-white rounded-2xl border border-gray-100 p-6">
+                        <p class="mb-2"><strong>Grievance Officer:</strong> Drift Minds Support Team</p>
+                        <p class="mb-2"><strong>Email:</strong> <a href="mailto:contact@yourdomain.com" class="text-primary hover:text-accent underline">contact@yourdomain.com</a></p>
+                        <p class="mb-2"><strong>Phone:</strong> <a href="tel:+91-XXXXXXXXXX" class="text-primary hover:text-accent underline">+91-XXXXXXXXXX</a></p>
+                        <p><strong>Response Time:</strong> We will acknowledge your grievance within 48 hours and endeavor to resolve it within 30 days from the date of receipt.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Section 14 -->
+            <div id="contact-us" class="mb-12 scroll-mt-28">
+                <h2 class="font-heading font-bold text-2xl text-primary-deeper mb-4 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center text-primary font-bold text-sm">14</span>
+                    Contact Us
+                </h2>
+                <div class="prose prose-lg max-w-none text-dark-light leading-relaxed space-y-4">
+                    <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data handling practices, please reach out to us:</p>
+                    <div class="bg-gradient-to-br from-primary/5 to-primary/10 rounded-2xl border border-primary/10 p-8">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-building text-primary mt-1"></i>
+                                <div>
+                                    <h4 class="font-semibold text-primary-deeper text-sm">Company</h4>
+                                    <p class="text-sm">Drift Minds</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-map-marker-alt text-primary mt-1"></i>
+                                <div>
+                                    <h4 class="font-semibold text-primary-deeper text-sm">Locations</h4>
+                                    <p class="text-sm">YOUR_CITY_1, STATE_1 & YOUR_CITY_2, STATE_2, India</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-envelope text-primary mt-1"></i>
+                                <div>
+                                    <h4 class="font-semibold text-primary-deeper text-sm">Email</h4>
+                                    <p class="text-sm"><a href="mailto:contact@yourdomain.com" class="text-primary hover:text-accent underline">contact@yourdomain.com</a></p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-phone text-primary mt-1"></i>
+                                <div>
+                                    <h4 class="font-semibold text-primary-deeper text-sm">Phone</h4>
+                                    <p class="text-sm"><a href="tel:+91-XXXXXXXXXX" class="text-primary hover:text-accent underline">+91-XXXXXXXXXX</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="bg-primary-deeper pt-16 pb-8">
+        <div class="h-1 bg-gradient-to-r from-transparent via-gold to-transparent mb-16"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <img src="../logo.png" alt="Drift Minds Logo" class="h-10 w-10 object-contain">
+                        <div>
+                            <div class="font-heading font-black text-lg text-white tracking-tight">DRIFT MINDS</div>
+                            <div class="text-[9px] tracking-[0.3em] text-gold font-semibold uppercase">Apparel Manufacturing</div>
+                        </div>
+                    </div>
+                    <p class="text-white/60 text-sm leading-relaxed mb-6">
+                        Thank you for considering Drift Minds. We look forward to the opportunity to collaborate and craft apparel that reflects your brand's identity with excellence.
+                    </p>
+                    <div class="flex gap-3">
+                        <a href="#" class="w-10 h-10 bg-white/10 hover:bg-gold/30 rounded-lg flex items-center justify-center transition-all duration-300" aria-label="Instagram">
+                            <i class="fab fa-instagram text-white text-sm"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-white/10 hover:bg-gold/30 rounded-lg flex items-center justify-center transition-all duration-300" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in text-white text-sm"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-white/10 hover:bg-gold/30 rounded-lg flex items-center justify-center transition-all duration-300" aria-label="YouTube">
+                            <i class="fab fa-youtube text-white text-sm"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="font-heading font-bold text-white text-lg mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="../index.html" class="text-white/60 hover:text-gold transition-colors text-sm flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold/50"></i>Home</a></li>
+                        <li><a href="../index.html#products" class="text-white/60 hover:text-gold transition-colors text-sm flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold/50"></i>Our Products</a></li>
+                        <li><a href="../index.html#process" class="text-white/60 hover:text-gold transition-colors text-sm flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold/50"></i>Our Process</a></li>
+                        <li><a href="../index.html#clients" class="text-white/60 hover:text-gold transition-colors text-sm flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold/50"></i>Testimonials</a></li>
+                        <li><a href="../index.html#contact" class="text-white/60 hover:text-gold transition-colors text-sm flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold/50"></i>Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="font-heading font-bold text-white text-lg mb-6">Contact Us</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-phone text-gold text-sm mt-1"></i>
+                            <a href="tel:+91-XXXXXXXXXX" class="text-white/60 hover:text-gold transition-colors text-sm">+91-XXXXXXXXXX</a>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-envelope text-gold text-sm mt-1"></i>
+                            <a href="mailto:contact@yourdomain.com" class="text-white/60 hover:text-gold transition-colors text-sm break-all">contact@yourdomain.com</a>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-map-marker-alt text-gold text-sm mt-1"></i>
+                            <span class="text-white/60 text-sm">YOUR_CITY_1, STATE_1 & Kolkata,<br>West Bengal, India</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-clock text-gold text-sm mt-1"></i>
+                            <span class="text-white/60 text-sm">Mon – Sat: 9:00 AM – 6:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Legal Links -->
+                <div>
+                    <h4 class="font-heading font-bold text-white text-lg mb-6">Legal</h4>
+                    <ul class="space-y-3">
+                        <li><a href="privacy-policy.html" class="text-gold hover:text-gold-light transition-colors text-sm flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold/50"></i>Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html" class="text-white/60 hover:text-gold transition-colors text-sm flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold/50"></i>Terms of Service</a></li>
+                        <li><a href="refund-policy.html" class="text-white/60 hover:text-gold transition-colors text-sm flex items-center gap-2"><i class="fas fa-chevron-right text-xs text-gold/50"></i>Refund Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-white/40 text-sm text-center md:text-left">
+                    &copy; 2026 Drift Minds. All rights reserved. Crafted with <i class="fas fa-heart text-accent text-xs"></i> in YOUR_CITY_1 & YOUR_CITY_2.
+                </p>
+                <div class="flex gap-6">
+                    <a href="privacy-policy.html" class="text-gold text-sm transition-colors">Privacy Policy</a>
+                    <a href="terms-of-service.html" class="text-white/40 hover:text-gold text-sm transition-colors">Terms of Service</a>
+                    <a href="refund-policy.html" class="text-white/40 hover:text-gold text-sm transition-colors">Refund Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script>
+        // Mobile Menu
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobileMenuClose = document.getElementById('mobileMenuClose');
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+        mobileMenuBtn.addEventListener('click', () => mobileMenu.classList.add('open'));
+        mobileMenuClose.addEventListener('click', () => mobileMenu.classList.remove('open'));
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.remove('open'));
+        });
+    </script>
+
+</body>
+</html>
